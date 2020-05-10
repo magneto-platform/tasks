@@ -1,5 +1,5 @@
 ---------
-- Get seller offers listing
+1- Get seller offers listing
 ---------
 - Description:
     - should return offers listing for the logged in seller (use seller id as param to avoid the need to implementing auth module).
