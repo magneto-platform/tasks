@@ -4,7 +4,7 @@
 - Description:
     - should return offers listing for the logged in seller (use seller id as param to avoid the need to implementing auth module).
 
-- URL: `{{url}}/offers?page=1&per_page=10&sort[price]=asc&filter[status]=live`
+- URL: `{{url}}/offers?page=1&per_page=10&seller_id=id`
 - Type: `GET`
 - Headers: `Token`
 - Request Params: `page, per_page, seller_id=id, 
@@ -39,8 +39,9 @@
 - Entities: `Seller, Offer`
 - Please use clean architecture to impelement this endpoint.
 - Please use TypeScript, Mysql, TypeORM and Express to impelement this endpoint.
-- Please use a caching mechanism (for ex Redis) to cache the data requested to be fetched from DB once and then from cache.
-- Please add unit tests to the code you will write using any testing framework (jest is preferred).
+- Please add unit tests (at least one) to the code you will write using any testing framework (Jest is preferred).
 - Please use small git commits (Not just one Large [initial commit]).
-- Please generate swagger documentation for this API endpoint.
-- Please put this on a public git Repo with steps to run in a `README` file.
+- Please generate documentation for this API endpoint (swagger preferred).
+- Please put this on a private git Repo with steps to run in a `README` file and send an invitation to us.
+- `Bonus` Please use a caching mechanism (for ex Redis) to cache the data requested to be fetched from DB once and then from cache.
+- `Bonus` Please add API test (at least one) to test the endpoint (SuperTest is preferred).
