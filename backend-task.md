@@ -6,7 +6,7 @@
 
 - URL: `{{url}}/offers?page=1&per_page=10&seller_id=id`
 - Type: `GET`
-- Headers: `Token`
+- Headers: `Token: ABC`
 - Request Params: `page, per_page, seller_id=id, 
 - Response Schema:
 ```
