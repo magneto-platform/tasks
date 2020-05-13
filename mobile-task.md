@@ -8,9 +8,9 @@
   - user should see blank white screen with search bar focused by default and opened keyboard
   - user should start searching to see the results showing in a list like the one in the screen design (use the provided API call and use a http cleint (fetch or axios)).
   - user shoul tap on one of the result items to show the alert containing product description.
-  - if the user tapped on an item it should be saved in local DB (use Realm for this task to store data in a DB) and when he close and open the app
-  the saved items should be shown as search history.
-  - Maximum shown items for search history are 3 items if the user tappen on a new one 
+  - if the user tapped on an item it should be saved in local DB (use Realm for this task to store data (product id and name) in a DB) and when he close and open the app
+  the saved items should be shown as search history and they are not touchabel just for viewing.
+  - Maximum shown items for search history are 3 items if the user tappen on a new different one 
   then the most old one should be deleted and the new tapped one is saved.
   - user should remove search term to get back to blank white screen.
 
