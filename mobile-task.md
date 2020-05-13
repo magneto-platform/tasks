@@ -13,6 +13,7 @@
   - Maximum shown items for search history are 3 items if the user tappen on a new different one 
   then the most old one should be deleted and the new tapped one is saved.
   - user should remove search term to get back to blank white screen.
+  - Screen URL: https://github.com/magneto-platform/tasks/blob/master/Screen%20Shot%202020-05-13%20at%2011.07.47%20PM.png
 
 - URL: `http://www.mocky.io/v2/5ebc08392e00004b009f4125`
 - Type: `GET`
